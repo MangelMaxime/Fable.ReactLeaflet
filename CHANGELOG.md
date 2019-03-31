@@ -14,13 +14,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * Upgrade to Fable.Core v3
 
-### 0.2.0
+## 0.2.0
 
 ### Changed
 
 * Full rewrite of the binding and should support all react-leaflet
 
-### 0.1.0-beta-001
+## 0.1.0-beta-001
 
 ### Added
 
