@@ -187,9 +187,9 @@ const getLastVersion = async () => {
     return m[1];
 }
 
-const projectName = "Fable.Leaflet";
+const projectName = "Fable.ReactLeaflet";
 const owner = "MangelMaxime";
-const repo = "Fable.Leaflet";
+const repo = "Fable.ReactLeaflet";
 
 const clean =
     new Task("Clean", async () => {
