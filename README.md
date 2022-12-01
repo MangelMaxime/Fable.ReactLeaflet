@@ -2,6 +2,10 @@
 
 Fable bindings for [react-leaflet](https://react-leaflet.js.org/)
 
+**Important:** This binding only support react-leaflet v1 and v2.
+
+The following versions should be working v1.7.1 or v2.8.0.
+
 # Sample usage
 
 ```fsharp
