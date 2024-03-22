@@ -1,8 +1,0 @@
-source https://www.nuget.org/api/v2
-storage: none
-
-nuget FSharp.Core redirects:force, content:none
-nuget Fable.Core
-nuget Fable.Leaflet
-nuget Fable.Geojson
-nuget Fable.React

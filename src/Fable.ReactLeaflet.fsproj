@@ -12,11 +12,17 @@
   <ItemGroup>
     <Content Include="*.fsproj; *.fs" PackagePath="fable\" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="8.0.100" PrivateAssets="all" />
+    <PackageReference Include="Fable.Core" Version="4.3.0" />
+    <PackageReference Include="Fable.GeoJson" Version="1.0.0" />
+    <PackageReference Include="Fable.Leaflet" Version="1.0.0" />
+    <PackageReference Include="Fable.React" Version="9.3.0" />
+  </ItemGroup>
   <PropertyGroup>
   <NpmDependencies>
       <NpmPackage Name="leaflet" Version="gt 1.3.4" ResolutionStrategy="Max" />
       <NpmPackage Name="react-leaflet" Version="gt 2.0.0 lt 3.0.0" ResolutionStrategy="Max" />
     </NpmDependencies>
   </PropertyGroup>
-  <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>

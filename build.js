@@ -100,7 +100,7 @@ class Dotnet {
         if (opts.source !== undefined && typeof (opts.source === "String")) {
             args.push(opts.source);
         } else {
-            args.push("https://www.nuget.org/api/v2/package");
+            args.push("https://www.nuget.org/api/v3/package");
         }
 
         if (opts.apiKey !== undefined && typeof (opts.apiKey === "String")) {
